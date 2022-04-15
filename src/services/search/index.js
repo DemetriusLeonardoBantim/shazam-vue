@@ -1,5 +1,5 @@
 import {api} from '../config'
-const rota = '/search'
+const route = '/search'
 
 export async function searchSongsAndArtist({term}){
   return api.get(rota, {
